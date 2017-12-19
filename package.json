@@ -16,6 +16,7 @@
     "moment": "2.18.1",
     "node-sass": "4.5.3",
     "normalize.css": "7.0.0",
+    "numeral": "2.0.6",
     "react": "16.0.0",
     "react-addons-shallow-compare": "15.6.2",
     "react-dates": "12.7.0",
@@ -43,6 +44,7 @@
   "license": "MIT",
   "devDependencies": {
     "enzyme": "3.0.0",
+    "enzyme-adapter-react-16": "1.0.0",
     "enzyme-to-json": "3.0.1",
     "jest": "20.0.4",
     "react-test-renderer": "16.0.0",
