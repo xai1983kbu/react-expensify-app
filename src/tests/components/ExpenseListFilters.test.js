@@ -17,7 +17,7 @@ beforeEach(() => {
       filters={filters}
       setTextFilter={setTextFilter}
       sortByDate={sortByDate}
-      sortByAmout={sortByAmount}
+      sortByAmount={sortByAmount}
       setStartDate={setStartDate}
       setEndDate={setEndDate}
     />
@@ -59,7 +59,7 @@ test('should sort by amount', () => {
   wrapper.find('select').simulate('change', {
     target: { value }
   });
-  expect(sortByDate).toHaveBeenCalled();
+  expect(sortByAmount).toHaveBeenCalled();
 });
 
 test('should handle date changes', () => {
